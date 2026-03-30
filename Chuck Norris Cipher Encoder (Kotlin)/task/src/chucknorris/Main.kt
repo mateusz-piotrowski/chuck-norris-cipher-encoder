@@ -1,5 +1,8 @@
 package chucknorris
 
 fun main() {
-    println("Hello World!")
+    println("Input string:")
+    val input = readln()
+    input.forEach { print("$it ") }
+    println()
 }
