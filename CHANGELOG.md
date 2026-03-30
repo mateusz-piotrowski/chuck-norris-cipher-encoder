@@ -2,6 +2,10 @@
 
 ## [0.0.3] (March 30, 2026)
 
+**Added:**
+
+- Initial project files
+
 **Updated:**
 
 - .gitignore file
@@ -9,6 +13,7 @@
 ## [0.0.2] (December 27, 2025)
 
 **Added:**
+
 - .gitignore file
 - GitHub Actions CI workflow
 - Good practices in `SECURITY.md`
