@@ -5,6 +5,7 @@
 **Added:**
 
 - Task 2 solution
+- Task 3 solution
 
 ## [0.0.3] (March 30, 2026)
 
