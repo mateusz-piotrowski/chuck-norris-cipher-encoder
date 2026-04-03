@@ -1,11 +1,8 @@
 package chucknorris
-import java.util.Scanner
 
 fun main() {
-    val scanner = Scanner(System.`in`)
     println("Input string:")
-    val input = scanner.nextLine()
-
+    val input = readLine() ?: ""
     val binaryString = StringBuilder()
     for (char in input) {
         val binary = Integer.toBinaryString(char.toInt())
@@ -35,7 +32,6 @@ fun main() {
             }
         }
     }
-
-    println("The result:")
+    println("\nThe result:")
     println(result.toString())
 }
